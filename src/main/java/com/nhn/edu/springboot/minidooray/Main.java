@@ -9,7 +9,7 @@ public class Main {
 
         int param = sc.nextInt();
 
-        Calculable expression = new MultiplyExpression();
+        Calculable expression = new MultipliesExpression();
 
         System.out.printf("my expression's result : %d \n", expression.calculate(param));
     }
@@ -20,7 +20,7 @@ interface Calculable {
 }
 
 
-class MultiplyExpression implements Calculable{
+class MultipliesExpression implements Calculable{
     @Override
     public int calculate(int param) {
         return param * 3;
