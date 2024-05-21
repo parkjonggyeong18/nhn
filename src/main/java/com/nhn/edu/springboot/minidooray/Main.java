@@ -23,6 +23,6 @@ interface Calculable {
 class MultiplyExpression implements Calculable{
     @Override
     public int calculate(int param) {
-        return param * 2;
+        return param * 3;
     }
 }
