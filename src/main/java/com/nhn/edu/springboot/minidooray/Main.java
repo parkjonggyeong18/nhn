@@ -19,7 +19,6 @@ interface Calculable {
     int calculate(int param);
 }
 
-
 class MultipliesExpression implements Calculable{
     @Override
     public int calculate(int param) {
